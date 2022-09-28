@@ -110,7 +110,7 @@ section{
 
 
 .hero-section{
-    height: 852px;
+    height: auto;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     position: relative;
