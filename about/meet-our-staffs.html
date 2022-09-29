@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spring Valley</title>
+
+
+    <link href="../vendors/OwlCarousel2/dist/assets/owl.carousel.min.css" type="text/css" rel="stylesheet">
+
+    <link href="../vendors/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
     
     <link href="../vendors/bootstrap/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
     <link href="../css/styles.css" type="text/css" rel="stylesheet" />
@@ -14,17 +19,28 @@
 </head>
 <body>
 
-    <header class="p-3 text-bg-white ">
+    <header class="px-2 py-2  navbar-expand-lg sticky-top text-bg-white bg-white ">
         <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <div class="d-flex align-items-center  justify-content-lg-start justify-content-between  ">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none me-lg-auto">
                 <img src="../images/Logo.png" class="img-fluid"/>
             </a>
+
+            <button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <i class="fa fa-bars"></i>
+              </button>
+          
     
-            <ul class="nav col-12 col-lg-auto  mb-2 justify-content-center mb-md-0 gap-5">
+            <div class="d-none d-lg-block">
+
+           
+            <ul class="nav col-12 col-lg-auto  mb-2 justify-content-center mb-md-0 gap-4 ">
               <li class="nav-item  dropdown">
-                <a class="nav-link px-2 text-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link px-2 text-secondary dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   About
+
+                  <span></span>
                 </a>
                 <div class="dropdown-menu fade-in py-4 px-4">
                   <div class="row">
@@ -36,16 +52,16 @@
                         <div class="px-4" >
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="../about/welcome-message.html">
                                     Welcome Message
                                 </a>
                             </li>
                             <li>
-                                <a href="">Spring Valley's Story</a>
+                                <a href="../about/spring-valley-story.html">Spring Valley's Story</a>
 
                             </li>
                             <li>
-                                <a href="">Ethos & Vision</a>
+                                <a href="../about/ethos-vision.html">Ethos & Vision</a>
                             </li>
                         </ul>                        
                         
@@ -55,14 +71,14 @@
                         <div class="px-4">
                             <ul>
                                 <li>
-                                    <a href="">Meet our Staffs</a>
+                                    <a href="../about/meet-our-staffs.html">Meet our Staffs</a>
                                 </li>
                                 <li>
-                                    <a href="">Our Facilities</a>
+                                    <a href="../about/our-facilities.html">Our Facilities</a>
 
                                 </li>
                                 <li>
-                                    <a href="">Contact Us & Location</a>
+                                    <a href="../about/contact-us.html">Contact Us & Location</a>
                                 </li>
                             </ul>
                         </div>
@@ -71,12 +87,110 @@
                   </div>
                 </div>
               </li>
-              <li><a href="#" class="nav-link px-2 text-secondary">Admission</a></li>
-              <li><a href="#" class="nav-link px-2 text-secondary">Academics</a></li>
-              <li><a href="#" class="nav-link px-2 text-secondary">Gallery</a></li>
-              <li><a href="#" class="nav-link px-2 text-secondary">News & Events</a></li>
-              <li><a href="#" class="nav-link px-2 text-secondary">Portal</a></li>
+              <li class="nav-item  dropdown">
+                <a class="nav-link px-2 text-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Admission
+
+                  <span></span>
+                </a>
+                <div class="dropdown-menu fade-in py-4 px-4">
+                  <div class="row">
+                    <div class="col-lg-4">
+                        <h3>Admission</h3>
+                        <p>Spring Valley School carefully evaluates each applicant, taking into account both academic credentials and extracurricular activities.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="px-4" >
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Admission Process
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">Registration Form</a>
+
+                            </li>
+                        </ul>                        
+                        
+                    </div>                       
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="px-4">
+                            <ul>
+                                <li>
+                                    <a href="">Our Tuition</a>
+                                </li>
+                                <li>
+                                    <a href="">FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item  dropdown">
+                <a class="nav-link px-2 text-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Academics
+
+                  <span></span>
+                </a>
+                <div class="dropdown-menu fade-in py-4 px-4">
+                  <div class="row">
+                    <div class="col-lg-4">
+                        <h3>Academics</h3>
+                        <p>The unmatched standards of a premier independent school are combined with our curriculum at Spring Valley School. </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="px-4" >
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Pre-School
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">Primary School</a>
+
+                            </li>
+                            <li>
+                                <a href="">Junior School</a>
+
+                            </li>
+                        </ul>                        
+                        
+                    </div>                       
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="px-4">
+                            <ul>
+                                <li>
+                                    <a href="">Senior School</a>
+                                </li>
+                                <li>
+                                    <a href="">Extra-curricular Activities</a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="../gallery.html" class="nav-link px-2 text-secondary">Gallery
+                <span></span>
+
+              </a></li>
+              <li><a href="../news.html" class="nav-link px-2 text-secondary">News & Events
+                <span></span>
+
+              </a></li>
+              <li><a href="#" class=" header__btn  rounded-pill btn px-4 text-light">Portal</a></li>
             </ul>
+         </div>
           </div>
         </div>
       </header>
@@ -84,48 +198,80 @@
 
       <h4>Meet our Staffs</h4>
 
-      <section>
-        <div><img src="../images/image 2.png" class="w-100"></div>
-        <div>
-            <ul>
-                <li><a href="">Welcome Message</a></li>
-                <li><a href="">Spring Valley’s Story</a></li>
-                <li><a href="">Ethos & Vision</a></li>
-                <li><a href="">Meet our Staffs</a></li>
-                <li><a href="">Our Facilities</a></li>
-                <li><a href="">Contact Us & Location</a></li>
-            </ul>
-        </div>
-      </section>
-      
       <div>
-        <span><p>Spring Valley Schools  >  Meet our Staffs</p></span>
-      </div>
+        <img src="../images/image 2.png" class="w-100">
+    </div>
 
+    <!-- NAVIGATION BAR -->
+      <div class="navigation__bar">
+        <div class="container">
+            <div class="py-4">
+                <div class="d-none d-md-block">
+                    <ul >
+                    <li><a href="">Welcome Message</a></li>
+                    <li><a href="">Spring Valley’s Story</a></li>
+                    <li><a href="">Ethos & Vision</a></li>
+                    <li><a href="" class="active">Meet our Staffs</a></li>
+                    <li><a href="">Our Facilities</a></li>
+                    <li><a href="">Contact Us & Location</a></li>
+                    </ul>
+                </div>
+                
+
+
+                <div class="d-block d-md-none">
+                    <span class="d-flex align-items-center justify-content-end">
+                        <i class="fa fa-bars"></i>
+                    </span>
+                    
+                </div>
+            </div>
+            
+
+        </div>
+        
+        
+        
+    </div>
+      <div class="py-2">
+        <div class="container">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Spring Valley Schools </a></li>
+              <li class="breadcrumb-item active text-uppercase" aria-current="page">Meet our Staffs</li>
+            </ol>
+          </nav>
+      </div>
+      </div>
+      
+
+      <section>
+
+      
       <h4 class="h4" style="margin: 60px 0px 0px 100px ;">Meet Our Staffs</h4>
 
-      <div style="display: flex ; margin: 86px 0px 0px 100px ;">
+      <div style="display: flex ;">
         <div class=" " style="display: flex ;">
             <div class="red"></div>
             <div class="boy"><p>PRINCIPAL</p></div>
         </div>
-        <div  class="" style="display: flex ; margin-left: 250px ;">
+        <div  class="" style="display: flex ;">
             <div class="red"></div>
             <div class="boy"><p>LEADERS</p></div>
         </div>
       </div>
 
-      <div style="display: flex ; margin: 86px 0px 0px 100px ;">
+      <div style="display: flex ;flex-wrap: wrap;">
         <div class="col-lg-2 col-md-4 col-sm-12" style="display: flex ;">
             <div><img src="../images/image 8.png" class="image"></div>
         </div>
-        <div class="" style="display: flex ; margin: -40px 0px 0px 100px ;">
+        <div class="" style="display: flex ; ">
             <div class="circle"></div>
             <div class="circle" ></div>
         </div>
       </div>
 
-      <div style="display: flex ; margin: 86px 0px 0px 100px ;">
+      <div style="display: flex ; ">
         <div class="red"></div>
         <div class="boy"><p>STAFFS</p></div>
     </div>
@@ -134,190 +280,501 @@
 
     <div class="container">
         <div class="row">
-            <div class="circle col-lg-3 col-md-4 col-sm-12"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
+
+            <div class="col-lg-3 col-md-4 col-sm-12">
+              <div class="circle"></div>  
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+              <div class="circle"></div>  
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+              <div class="circle"></div>  
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+              <div class="circle"></div>  
+            </div>
+            
         </div>
 
         <div class="row">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="circle"></div>  
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="circle"></div>  
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="circle"></div>  
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="circle"></div>  
+              </div>
         </div>
 
         <div class="row">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="circle"></div>  
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="circle"></div>  
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="circle"></div>  
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="circle"></div>  
+              </div>
         </div>
 
         <div class="row">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="circle"></div>  
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="circle"></div>  
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="circle"></div>  
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="circle"></div>  
+              </div>
         </div>
     </div>
 
 
 
-      <footer>
-        
-            <div class="top-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 mb-4 mb-lg-0">
+</section>
 
-                            <div class="d-flex align-items-start gap-3 px-4">
-                                <img src="../images/spring-valley-logo.png" alt="spring-valley-logo"/>  
-                                <div>
-                                    <h3 class="logo-text">Spring Valley Schools</h3>
-                                    <p class="basic-info mt-3 mb-4">Spring Valley Schools Port Harcourt is a premier private, commited to raising outstanding students.</p>
-                                    <div class="d-flex align-items-center justify-content-start gap-2 social-icons">
-                                        
-                                        <a href="" class="rounded-circle p-3 d-flex align-items-center justify-content-center">
-                                            <img src="../images/instagram.svg" class="" style="height: 22px; width: 22px;"/>
-                                        </a>
-                                        <a href="" class="rounded-circle p-3 d-flex align-items-center justify-content-center">
-                                            <img src="../images/linkedin.svg" class="" style="height: 22px; width: 22px;"/>
-                                        </a>
-                                        <a href="" class="rounded-circle p-3 d-flex align-items-center justify-content-center">
-                                            <img src="../images/facebook.svg" class="" style="height: 22px; width: 22px;"/>
-                                        </a>
-                                    </div>
-            
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <div class="px-5 basic-info divider">
-                                <div class="d-flex flex-column gap-4">
-                                    <div class="d-flex align-items-start justify-content-start gap-4">
-                                        <img src="../images/map-pin.svg" class="" style="height: 22px; width: 22px;"/>
-                                        <p>Plot 5, Spring Valley Avenue, off NTA-Choba Road, Port Harcourt, Rivers State.</p>
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-start gap-4">
-                                        <img src="../images/phone-call.svg" class="" style="height: 22px; width: 22px;"/>
-                                        <p>(+234) 803 339 0345</p>
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-start gap-4">
-                                        <img src="../images/mail.svg" class="" style="height: 22px; width: 22px;"/>
-                                        <p>info@springvalleyschool.com.ng</p> 
-                                    </div>
-
-                                </div>
-                                
-    
-                                <div class="mt-5">
-                                    <span class="mb-4">
-                                        Sign up for our newsletter
-                                    </span>
-                                    <form>
-                                        <div class="w-100 mt-2 d-flex gap-1 ">
-                                        <input class="form-control flex-grow-1" type="text" placeholder="Enter your email address" /><button class="text-bg-danger btn d-flex align-items-center justify-content-center btn-md">send</button>
-                                        </div>
-                                    </form>
-                                    
-                                    
-                                </div>
-
-                            </div>
-                            
-        
-                        </div>
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <div class="px-4 d-flex align-items-start md-justify-content-center gap-5">
-                                <div>
-                                    <ul class="footer-links">
-                                        <li>
-                                            <a href="">About
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                Admission
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">Academics
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">Gallery
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">News & Events
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="footer-links">
-                                        <li>
-                                            <a href="">Career
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">Contact Us
-                                                <span></span>
-                                            </a>
-                                        </li>
-                                        
-                                    </ul>
-                                </div>
-
-
-                            </div>
-        
-                        </div>
-        
+    <section class="section__explore position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                    <div class=" img-container">
+                        <img src="../images/DSC_4240 1.png" alt="" class="img-fluid">
                     </div>
+                    
                 </div>
-            </div>
-    
-            <div class="bottom-footer">
-                <div class="container">
+                <div class="col-lg-7 col-md-7 col-sm-12 mt-4 mt-lg-0">
+                    <span class="subtitle">
+                        Explore why Spring Valley is 
+                    </span>
 
-                    <div class="row py-4 align-items-center">
-                        <div class="col-lg-6">
-                            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Spring Valley Schools. All Rights Reserved.</p>
-                        </div>
-                        <div class="col-lg-3">
+                    <h3>Excellence through hardwork</h3>
 
-                            <div class="d-inline-flex gap-2">
-                                <p>Cookie Policy</p>
-                                <p>Privacy Policy</p>
-                            </div>
+                    <div class="mt-5 d-flex align-items-center gap-4 justify-content-start flex-wrap">
+                        <a href="" class="inquire">
+                            <span>
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.09 9C9.3251 8.33167 9.78915 7.7681 10.4 7.40913C11.0108 7.05016 11.7289 6.91894 12.4272 7.03871C13.1255 7.15848 13.7588 7.52152 14.2151 8.06353C14.6713 8.60553 14.9211 9.29152 14.92 10C14.92 12 11.92 13 11.92 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 17H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
 
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="d-inline-flex align-items-center  justify-content-start justify-content-lg-center gap-1">
-                                <p>Powered by:</p>
-                                <img src="../images/Educare-Logo.png" alt="Educare-Logo"/>
-                            </div>
-                        </div>
+                            inquire
+
+                            <i class="fa fa-long-arrow-alt-right"></i>
+                        </a>
+                        <a href="" class="visit">
+                            <span>
+                
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.22 2H8.96005C8.56005 2 8.18002 2.14 7.87002 2.38L5.68002 4.13C4.80002 4.83 4.80002 6.15999 5.68002 6.85999L7.87002 8.60999C8.18002 8.85999 8.57005 8.98999 8.96005 8.98999H17.22C18.19 8.98999 18.97 8.20999 18.97 7.23999V3.73999C18.97 2.77999 18.19 2 17.22 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M6.79999 12H15.06C15.46 12 15.84 12.14 16.15 12.38L18.34 14.13C19.22 14.83 19.22 16.16 18.34 16.86L16.15 18.61C15.84 18.86 15.45 18.99 15.06 18.99H6.79999C5.82999 18.99 5.04999 18.21 5.04999 17.24V13.74C5.04999 12.78 5.82999 12 6.79999 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 12V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 22V19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9 22H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                
+                            </span>
+                            visit
+                            <i class="fa fa-long-arrow-alt-right"></i>
+                        </a>
+                        <a href="" class="apply">
+                            <span>
+                
+                
+                                <svg viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.79764 13.1661L18.9181 10.2661C23.0094 8.9651 25.1987 11.216 23.7846 15.2697L20.6324 24.3061C18.5113 30.3866 15.1812 30.3333 13.2368 24.2033L12.6543 22.3566C12.5052 21.8878 11.9962 21.3645 11.5317 21.2025L9.69492 20.5617C3.62136 18.4477 3.66772 15.1105 9.79764 13.1661Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12.2974 21.5738L16.1684 17.8088" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                
+                            </span>
+
+                            apply
+                            <i class=" fa fa-long-arrow-alt-right"></i>
+                        
+                        </a>
                     </div>
                     
                 </div>
             </div>
+        </div>
+        <div style="position: absolute; right:0; height:100%; top: 0;">
+            <img src="../images/Pattern.png" class="h-100"/>
+        </div>
+    </section>
+
+
+
+    <footer>
         
-      </footer>
+        <div class="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+
+                        <div class="d-flex align-items-start flex-column flex-lg-row  gap-3 px-2 px-lg-4">
+                            <img src="../images/spring-valley-logo.png" alt="spring-valley-logo"/>  
+                            <div>
+                                <h3 class="logo-text">Spring Valley Schools</h3>
+                                <p class="basic-info mt-3 mb-4">Spring Valley Schools Port Harcourt is a premier private, commited to raising outstanding students.</p>
+                                <div class="d-flex align-items-center justify-content-start gap-2 social-icons">
+                                    
+                                    <a href="" class="rounded-circle p-3 d-flex align-items-center justify-content-center">
+                                        <img src="../images/instagram.svg" class="" style="height: 22px; width: 22px;"/>
+                                    </a>
+                                    <a href="" class="rounded-circle p-3 d-flex align-items-center justify-content-center">
+                                        <img src="../images/linkedin.svg" class="" style="height: 22px; width: 22px;"/>
+                                    </a>
+                                    <a href="" class="rounded-circle p-3 d-flex align-items-center justify-content-center">
+                                        <img src="../images/facebook.svg" class="" style="height: 22px; width: 22px;"/>
+                                    </a>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <div class="px-2 px-lg-5  basic-info divider">
+                            <div class="d-flex flex-column gap-4">
+                                <div class="d-flex align-items-start justify-content-start gap-4">
+                                    <img src="../images/map-pin.svg" class="" style="height: 22px; width: 22px;"/>
+                                    <p>Plot 5, Spring Valley Avenue, off NTA-Choba Road, Port Harcourt, Rivers State.</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-start gap-4">
+                                    <img src="../images/phone-call.svg" class="" style="height: 22px; width: 22px;"/>
+                                    <p>(+234) 803 339 0345</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-start gap-4">
+                                    <img src="../images/mail.svg" class="" style="height: 22px; width: 22px;"/>
+                                    <p>info@springvalleyschool.com.ng</p> 
+                                </div>
+
+                            </div>
+                            
+
+                            <div class="mt-5">
+                                <span class="mb-4">
+                                    Sign up for our newsletter
+                                </span>
+                                <form>
+                                    <div class="w-100 mt-2 d-flex gap-1 ">
+                                    <input class="form-control flex-grow-1" type="text" placeholder="Enter your email address" /><button class="text-bg-danger btn d-flex align-items-center justify-content-center btn-md">send</button>
+                                    </div>
+                                </form>
+                                
+                                
+                            </div>
+
+                        </div>
+                        
+    
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <div class="px-2 px-lg-4 d-flex align-items-start md-justify-content-center gap-5">
+                            <div>
+                                <ul class="footer-links">
+                                    <li>
+                                        <a href="">About
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Admission
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">Academics
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">Gallery
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">News & Events
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="footer-links">
+                                    <li>
+                                        <a href="">Career
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">Contact Us
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+
+
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-footer">
+            <div class="container">
+
+                <div class="row py-4 align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Spring Valley Schools. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-3  col-md-6 col-sm-12 py-3  py-md-0">
+
+                        <div class="d-inline-flex gap-2">
+                            <p>Cookie Policy</p>
+                            <p>Privacy Policy</p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="d-inline-flex align-items-center  justify-content-start justify-content-lg-center gap-1">
+                            <p>Powered by:</p>
+                            <img src="../images/Educare-Logo.png" alt="Educare-Logo"/>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </footer>
 
 
 
-    <script src="../vendors/jquery.js"></script>
-    <script src="../vendors/popper.js"></script>
-    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+  <!-- MOBILE SIDEBAR -->
+    <div class="mobile__sidebar">
+        <div class="py-4">
+            <div class="px-2 ">
+                <h3>Menu</h3>
+            </div>
+            <div class="d-flex align-items-start justify-content-start flex-column mt-4 gap-2">
+                
+                
+                
+
+                <div class="mobile__sidebar--dropdown d-block w-100 " data-dropdown>
+
+                
+                    <div class="menu-item w-100 uppercase d-flex align-items-center px-4 py-2 justify-content-between" data-dropdown-btn >
+                        
+                        <span class="text-sm font-normal w-100 pointer-events-none">
+                            About
+                        </span>
+
+                        
+                        <span class=" p-1 bg-gray-200  rounded-full h-3 w-3 transition-all duration-100 ease-in d-flex items-center justify-center dropdown__btn pointer-events-none"  >
+                            <i class="fa fa-plus"></i>
+                        </span>
+
+                        
+                    </div>
+
+                    <div class="mobile__sidebar-dropdown-menu   px-4 ">
+
+                        <div class="mb-3 scrollbar-change overflow-y-auto h-full">
+                            <ul>
+
+                                <li>
+                                    <a href="../about/welcome-message.html">
+                                        Welcome Message
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../about/spring-valley-story.html">Spring Valley's Story</a>
+    
+                                </li>
+                                <li>
+                                    <a href="../about/ethos-vision.html">Ethos & Vision</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../about/meet-our-staffs.html">Meet our Staffs</a>
+                                </li>
+                                <li>
+                                    <a href="../about/our-facilities.html">Our Facilities</a>
+
+                                </li>
+                                <li>
+                                    <a href="../about/contact-us.html">Contact Us & Location</a>
+                                </li>
+                            </ul>
+                        
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="mobile__sidebar--dropdown d-block w-100 " data-dropdown>
+
+                
+                    <div class="menu-item w-100 uppercase d-flex align-items-center py-2 px-4  justify-content-between" data-dropdown-btn>
+                        
+                        <span class="menu-item text-sm font-normal w-100 pointer-events-none">
+                            Admission
+                        </span>
+
+                        
+                        <span class=" p-1  rounded-full h-3 w-3 transition-all duration-100 ease-in d-flex items-center justify-center dropdown__btn pointer-events-none"   >
+                            <i class="fa fa-plus"></i>
+                        </span>
+
+                        
+                    </div>
+
+                    <div class="mobile__sidebar-dropdown-menu   px-4 admi">
+
+                        <div class="mb-3 scrollbar-change overflow-y-auto h-full">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        Admission Process
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">Registration Form</a>
+    
+                                </li>
+                                <li>
+                                    <a href="">Our Tuition</a>
+                                </li>
+                                <li>
+                                    <a href="">FAQs</a>
+                                </li>
+                            </ul>
+                        
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="mobile__sidebar--dropdown d-block w-100 " data-dropdown>
+
+                
+                    <div class="menu-item w-100 uppercase d-flex align-items-center py-2 px-4  justify-content-between" data-dropdown-btn>
+                        
+                        <span class="menu-item text-sm font-normal w-100 pointer-events-none">
+                            <span>
+                                Academics
+                            </span>
+                            
+                        </span>
+
+                        
+                        <span class=" p-1  rounded-full h-3 w-3 transition-all duration-100 ease-in d-flex items-center justify-center dropdown__btn pointer-events-none"   >
+                            <i class="fa fa-plus"></i>
+                        </span>
+
+                        
+                    </div>
+
+                    <div class="mobile__sidebar-dropdown-menu   px-4 acad ">
+
+                        <div class="mb-3 scrollbar-change overflow-y-auto h-full">
+                            <ul>
+
+
+                                <li>
+                                    <a href="">
+                                        Pre-School
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">Primary School</a>
+    
+                                </li>
+                                <li>
+                                    <a href="">Junior School</a>
+    
+                                </li>
+                           
+                                <li>
+                                    <a href="">Senior School</a>
+                                </li>
+                                <li>
+                                    <a href="">Extra-curricular Activities</a>
+
+                                </li>
+
+
+                            </ul>
+                        
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <a href="" class="menu-item w-full font-thin  uppercase flex text-gray_cl items-center py-2 px-4  text-sm">
+
+                    <span class="text-sm font-normal">
+                        Gallery
+                    </span>
+                </a>
+
+                <a href="news.html" class="menu-item w-full font-thin  uppercase flex text-gray_cl items-center py-2 px-4 transition-colors duration-200 ease-in hover:bg-fuchsia-600 hover:text-white text-sm">
+
+                    <span class="text-sm font-normal">
+                        News & Events
+                    </span>
+                        
+                </a>
+                <div class="px-4 py-2 w-100">
+                    <a href="" class="header__btn  rounded-pill btn text-light ">
+                        Portal
+                    </a>
+                </div>
+
+                
+
+
+            </div>
+        </div>
+    </div>
+  <!-- MOBILE SIDEBAR -->
+
+
+
+  <script src="../vendors/jquery.js"></script>
+  <script src="../vendors/popper.js"></script>
+  <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../vendors/OwlCarousel2/dist/owl.carousel.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+
+
+  <script src="../js/main.js"></script>
+    
     
 </body>
 </html>

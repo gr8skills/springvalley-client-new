@@ -1143,6 +1143,7 @@ border: 2px solid #474B48;
 }
 
 
+/* END OF FOOTER */
 
 
 
@@ -1152,6 +1153,47 @@ border: 2px solid #474B48;
 
 
 
+/* ========== NAVIGATION BAR ========= */
+.navigation__bar ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    display: inline-flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+
+}
+.navigation__bar ul li a{
+    text-decoration: none;
+    color: #474B48;
+}
+.navigation__bar ul li a:hover{
+    text-decoration: none;
+    color: #1A7526;
+}
+.navigation__bar ul li a.active{
+    color: #1A7526;
+    font-weight: 700;
+}
+
+
+/* ====== BREADCRUMS ======= */
+
+ol.breadcrumb li:first-child a{
+    color: #777E78;
+    text-decoration: none;
+}
+ol.breadcrumb li:last-child{
+    color: #474B48;
+}
+
+
+
+
+
+/* ====== MOBILE NAVIGATION ======*/
 
 .mobile__sidebar{
     position: fixed;
