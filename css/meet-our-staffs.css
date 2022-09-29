@@ -1,0 +1,33 @@
+.red{
+    background-color: #D02F2F;
+    height: 18px;
+    width: 18px;
+    left: 0px;
+    top: 9px;
+    border-radius: 2px;
+    margin-left: 30px;
+}
+
+.boy{
+    height: 36px;
+    width: 151px;
+    left: 47px;
+    top: 0px;
+    margin-left: 29px;
+}
+
+.image{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.circle{
+    background: #E2F8E5;
+    height: 250px;
+    width: 250px;
+    left: 618px;
+    top: 292px;
+    border-radius: 100%;
+    margin: 10px;
+}

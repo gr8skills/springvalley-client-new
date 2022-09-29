@@ -1,0 +1,25 @@
+.image{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.faith{
+    font-family: 'Qwigley';
+    font-size: 50px;
+    font-weight: 400px;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.joy{
+    color: #05CE20 ;
+   font-family: 'Lato';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 4px 0px 0px 3px ;
+}
