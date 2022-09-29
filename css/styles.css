@@ -1161,6 +1161,7 @@ border: 2px solid #474B48;
     width: 60%;
     left: -60%;
     overflow-y: auto;
+    overflow-x: hidden;
     /* -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); */
     backface-visibility: hidden;
@@ -1173,4 +1174,80 @@ border: 2px solid #474B48;
     left: 0;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+}
+.mobile__sidebar .menu-item{
+    color: #1E1E1E;
+    text-decoration: none;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+
+}
+.mobile__sidebar .menu-item:hover.text-sm{
+    transform: translateX(10px);
+    transition: all .3s ease;
+
+}
+
+.mobile__sidebar .dropdown__btn{
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+}
+.mobile__sidebar .dropdown__btn i{
+    pointer-events: none;
+    font-size: 14px;
+}
+
+
+.mobile__sidebar .mobile__sidebar--dropdown .mobile__sidebar-dropdown-menu{
+    /* display: none; */
+    clear:both;
+    width:100%;
+    height:0px;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+    /* padding: 10px 5px; */
+
+}
+.mobile__sidebar .mobile__sidebar--dropdown.show .mobile__sidebar-dropdown-menu{
+    /* display: block; */
+    /* padding: 10px 5px; */
+
+    height: 280px;
+    /* background:#01490B; */
+}
+.mobile__sidebar .mobile__sidebar--dropdown.show .mobile__sidebar-dropdown-menu.admi{
+    /* display: block; */
+    /* padding: 10px 5px; */
+
+    height: 180px;
+    /* background:#01490B; */
+}
+.mobile__sidebar .mobile__sidebar--dropdown.show .mobile__sidebar-dropdown-menu.acad{
+    /* display: block; */
+    /* padding: 10px 5px; */
+
+    height: 220px;
+    /* background:#01490B; */
+}
+
+.mobile__sidebar-dropdown-menu ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+.mobile__sidebar-dropdown-menu ul li a{
+    padding: 10px 0px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #6F6F6F;
+}
+.mobile__sidebar-dropdown-menu ul li a:hover{
+    color: #1E1E1E;
+    transition: all 300ms ease ;
+    transform: translateX(10px);
 }
