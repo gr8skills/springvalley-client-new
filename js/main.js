@@ -66,9 +66,12 @@ $(document).ready(function(){
   var togglebtn = document.querySelector('.navbar-toggler');
   var mobileSidebar = document.querySelector('.mobile__sidebar');
 
-  togglebtn.addEventListener('click', () => {
-    mobileSidebar.classList.toggle('open')
-  })
+  if(togglebtn && mobileSidebar ){
+     togglebtn.addEventListener('click', () => {
+      mobileSidebar.classList.toggle('open')
+    })
+  }
+ 
 
 
   document.addEventListener('click', (e) => {
@@ -80,6 +83,7 @@ $(document).ready(function(){
         // alert("clickedd")
           currentDropdown = e.target.closest('[data-dropdown]')
           currentDropdown.classList.toggle('show')
+          // isDropdownButton.classList.toggle('active')
           
       }
 

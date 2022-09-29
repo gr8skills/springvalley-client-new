@@ -20,11 +20,11 @@ header .navbar{
     box-shadow: 0px 3px 5px 2px rgba(30, 30, 30, 0.01);
 }
 
-header .header__btn{
+.header__btn{
     background: #1A7526;
     
 }
-header .header__btn:hover{
+.header__btn:hover{
     background: #1A7526 !important;
 
 }
@@ -739,6 +739,7 @@ border: 2px solid #474B48;
     top: 30px;
     background: #FFFFFF;
     opacity: 0;
+    /* display: none; */
     /* z-index: -1; */
     z-index: 99;
 
@@ -759,6 +760,7 @@ border: 2px solid #474B48;
     top: 0;
     opacity: 1;
 
+    display: block;
 }
 
 .highlight-bx-overlay__text h4{
@@ -1181,23 +1183,40 @@ border: 2px solid #474B48;
     font-size: 18px;
     width: 100%;
     display: block;
+    cursor: pointer;
 
 }
-.mobile__sidebar .menu-item:hover.text-sm{
-    transform: translateX(10px);
+.mobile__sidebar .menu-item:hover{
+    /* transform: translateX(10px) !important; */
+    background: #e9ecef;
     transition: all .3s ease;
 
 }
+.mobile__sidebar .header__btn{
+    width: 150px;
+
+}
+
+.mobile__sidebar .mobile__sidebar--dropdown.show .menu-item{
+    background: #e9ecef;
+}
+
+
 
 .mobile__sidebar .dropdown__btn{
     outline: none;
     box-shadow: none;
     border: none;
     font-size: 14px;
+    background: #e9ecef;
 }
 .mobile__sidebar .dropdown__btn i{
     pointer-events: none;
     font-size: 14px;
+    color:#1A7526;
+}
+.pointer-events-none{
+    pointer-events: none;
 }
 
 
