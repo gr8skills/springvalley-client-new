@@ -15,17 +15,28 @@
 </head>
 <body>
 
-    <header class="p-3 text-bg-white ">
+    <header class="px-2 py-2  navbar-expand-lg sticky-top text-bg-white bg-white ">
         <div class="container">
-          <div class="d-flex flex-wrap align-items-center  justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none me-lg-auto">
+          <div class="d-flex align-items-center  justify-content-lg-start justify-content-between  ">
+            <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none me-lg-auto">
                 <img src="images/Logo.png" class="img-fluid"/>
             </a>
+
+            <button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <i class="fa fa-bars"></i>
+              </button>
+          
     
-            <ul class="nav col-12 col-lg-auto  mb-2 justify-content-center mb-md-0 gap-5 ">
+            <div class="d-none d-lg-block">
+
+           
+            <ul class="nav col-12 col-lg-auto  mb-2 justify-content-center mb-md-0 gap-4 ">
               <li class="nav-item  dropdown">
                 <a class="nav-link px-2 text-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   About
+
+                  <span></span>
                 </a>
                 <div class="dropdown-menu fade-in py-4 px-4">
                   <div class="row">
@@ -72,20 +83,122 @@
                   </div>
                 </div>
               </li>
-              <li><a href="#" class="nav-link px-2 text-secondary">Admission</a></li>
-              <li><a href="#" class="nav-link px-2 text-secondary">Academics</a></li>
-              <li><a href="#" class="nav-link px-2 text-secondary">Gallery</a></li>
-              <li><a href="#" class="nav-link px-2 text-secondary">News & Events</a></li>
-              <li><a href="#" class=" btn-outline-dark rounded-pill btn px-4 text-secondary">Portal</a></li>
+              <li class="nav-item  dropdown">
+                <a class="nav-link px-2 text-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Admission
+
+                  <span></span>
+                </a>
+                <div class="dropdown-menu fade-in py-4 px-4">
+                  <div class="row">
+                    <div class="col-lg-4">
+                        <h3>Admission</h3>
+                        <p>Spring Valley School carefully evaluates each applicant, taking into account both academic credentials and extracurricular activities.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="px-4" >
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Admission Process
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">Registration Form</a>
+
+                            </li>
+                        </ul>                        
+                        
+                    </div>                       
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="px-4">
+                            <ul>
+                                <li>
+                                    <a href="">Our Tuition</a>
+                                </li>
+                                <li>
+                                    <a href="">FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item  dropdown">
+                <a class="nav-link px-2 text-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Academics
+
+                  <span></span>
+                </a>
+                <div class="dropdown-menu fade-in py-4 px-4">
+                  <div class="row">
+                    <div class="col-lg-4">
+                        <h3>Academics</h3>
+                        <p>The unmatched standards of a premier independent school are combined with our curriculum at Spring Valley School. </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="px-4" >
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Pre-School
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">Primary School</a>
+
+                            </li>
+                            <li>
+                                <a href="">Junior School</a>
+
+                            </li>
+                        </ul>                        
+                        
+                    </div>                       
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="px-4">
+                            <ul>
+                                <li>
+                                    <a href="">Senior School</a>
+                                </li>
+                                <li>
+                                    <a href="">Extra-curricular Activities</a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#" class="nav-link px-2 text-secondary">Gallery
+                <span></span>
+
+              </a></li>
+              <li><a href="news.html" class="nav-link px-2 text-secondary">News & Events
+                <span></span>
+
+              </a></li>
+              <li><a href="#" class=" header__btn  rounded-pill btn px-4 text-light">Portal</a></li>
             </ul>
+         </div>
           </div>
         </div>
       </header>
 
     <section class="hero-section">
-        <div class="hero-carousel owl-carousel">
-            <div class="item"> 
+        <div class="hero-carousel owl-carousel position-relative">
+            <div class="item position-relative"> 
+                <!-- <div style=""></div> -->
+                <!-- <div class="home_slider_background" style="background-image: url('images/test.png' )"></div> -->
+                
                 <div>
+
                     <img src="images/gallery-34 1.png" class="w-100 img-fluid "/>
                     <div class="item-text">
                         excellence
@@ -127,7 +240,7 @@
 
         <div class="fixed-icons">
 
-            <div class="d-flex flex-column align-items-start gap-4 ">
+            <div class="d-flex flex-column align-items-start gap-2 ">
                 <button class="help-circle">
                     <span>
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -612,7 +725,7 @@
     </section>
 
 
-    <section class="section__explore">
+    <section class="section__explore position-relative">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-sm-12">
@@ -677,6 +790,9 @@
                 </div>
             </div>
         </div>
+        <div style="position: absolute; right:0; height:100%; top: 0;">
+            <img src="images/Pattern.png" class="h-100"/>
+        </div>
     </section>
     
 
@@ -689,7 +805,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
 
-                            <div class="d-flex align-items-start   gap-3 px-2 px-lg-4">
+                            <div class="d-flex align-items-start flex-column flex-lg-row  gap-3 px-2 px-lg-4">
                                 <img src="images/spring-valley-logo.png" alt="spring-valley-logo"/>  
                                 <div>
                                     <h3 class="logo-text">Spring Valley Schools</h3>
@@ -831,6 +947,13 @@
         
       </footer>
  
+      <div class="mobile__sidebar">
+            <div>
+                <ul>
+                   heyyyy 
+                </ul>
+            </div>
+      </div>
 
 
     <script src="vendors/jquery.js"></script>

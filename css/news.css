@@ -1,0 +1,121 @@
+.news-btn{
+    background-color: #1A7526;
+    width: 300px;
+    color: white;
+    /* border-radius: 15px; */
+    border: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 18px;
+    height: 100%;
+    /* line-height: 22px; */
+}
+.news{
+    align-items: center;
+    gap: 30px;
+    top: 150px;
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid #EDEBEB ;
+}
+.news a{
+    font-size: 25px;
+    border: none;
+}
+.evnt-btn{
+    width: 300px;
+    border: none;
+    background-color:#fff;
+    color: #474B48;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid #fff;
+
+    transition: all .3s ease-in-out;
+
+}
+.evnt-btn:hover{
+    border: 1px solid #1A7526;
+    background: #1A7526;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+
+
+.news-cnt img{
+    width: 100%;
+}
+/* .news-cnt button{
+    color:#1A7526;
+    border: none;
+    background-color: white;
+    font-size: 30px;
+} */
+.clk-btn{
+    border-radius: 30px;
+    /* width: 300px; */
+    justify-content: center;
+    text-align: center;
+    color:#474B48;
+    text-decoration: none;
+    border: 1px solid #474B48;
+    width: 200px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out ;
+
+
+}
+.clk-btn:hover{
+    color: #fff;
+    border: 1px solid #1A7526;
+    background: #1A7526;
+    transition: all 0.3s ease-in-out ;
+
+}
+
+.news-card h3{
+    font-size: 22px;
+    line-height: 30px;
+
+
+    color: #474B48;
+
+}
+.news-card h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #777E78;
+
+}
+.news-card p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+    
+    
+    color: #474B48;
+}
+.news-card a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #1A7526;
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    .news-btn, 
+    .evnt-btn{
+        width: auto;
+    }
+    
+}

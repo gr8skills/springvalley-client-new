@@ -63,6 +63,16 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
 
+  var togglebtn = document.querySelector('.navbar-toggler');
+  var mobileSidebar = document.querySelector('.mobile__sidebar');
+
+  togglebtn.addEventListener('click', () => {
+    mobileSidebar.classList.toggle('open')
+  })
+
+
+
+
   $('.owl-testimonial').owlCarousel({
     loop:true,
     autoplay: true,
