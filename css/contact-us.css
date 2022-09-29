@@ -1,6 +1,6 @@
 input[type=text] , input[type=email]{
     height: 58px;
-    width: 537px;
+    width: 100%;
     left: 0px;
     top: 0px;
     border-radius: 4px;
@@ -16,17 +16,17 @@ input{
 
 input[type=submit]{
     height: 37px;
-    width: 149px;
-    left: 391px;
-    top: 590px;
+    width: auto;
+    /* left: 391px; */
+    /* top: 590px; */
     border-radius: 26px;
     padding: 10px 18px 25px 18px;
-    margin: 0px 0px 130px 390px;
+    margin: 0 auto;
 }
 
 textarea{
     height: 200px;
-    width: 539px;
+    width: 100%;
     left: 0px;
     top: 234px;
     border-radius: 4px;
