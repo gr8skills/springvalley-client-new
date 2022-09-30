@@ -793,8 +793,18 @@ border: 2px solid #474B48;
     
 }
 
+@keyframes slide-in{
+    
+    from {background-color:white; left: -30px; top:30px; opacity: 0;}
+    to {background-color:white; left: 0px; top: 0px;opacity: 1;}
+}
+
 .highlight-bx:hover .highlight-bx-overlay{
     transition: all 300ms ease;
+    /* animation-name: slide-in;
+    animation-duration: 300ms;
+    animation-direction: alternate; */
+
     /* transform: scale(1); */
     left: 0;
     top: 0;
@@ -1356,4 +1366,49 @@ ol.breadcrumb li:last-child{
     color: #1E1E1E;
     transition: all 300ms ease ;
     transform: translateX(10px);
+}
+
+
+
+
+.back-logo{
+    background-image: url('../images/image 17.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.text{
+    background-color: white;
+    justify-content: center;
+    position: absolute;
+    padding: 0 10px;
+    height: 500px;
+    width: 700px;
+    display: none;
+}
+.bg-container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-logo:hover > .text{
+    display: block;
+    animation-name: example;
+    animation-duration: 2s;
+}
+@keyframes example{
+    from {background-color:white; right: 300px; top:500px;}
+    to {background-color:white; right: 0px; top: 0px;}
+}
+.text h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: black;
+    width: 550px;
+    /* text-align: center; */
 }
