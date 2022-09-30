@@ -1,7 +1,35 @@
 .boss{
+      text-align: center;
+      /* display: flex;
+      align-items: center;
+      justify-content: center; */
+}
+
+.boss h4{
       font-family: 'Qwigley'; 
       font-style: normal;
       font-weight: 400;
       font-size: 52px;
       line-height: 65px;
+      text-align: center;
+      max-width: 800px;
+}
+
+.story__div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 10px;
+      text-align: center;
+      width: 100%;
+
+}
+.story__div p{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 42px;
+      text-align: center;
+      color: #474B48;
 }
