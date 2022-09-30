@@ -26,6 +26,8 @@
 .contact-form input:focus,
 .contact-form textarea:focus{
     box-shadow: none;
+    border: 1px solid #474B48;
+
 }
 
 textarea{
