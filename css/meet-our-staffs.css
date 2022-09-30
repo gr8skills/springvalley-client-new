@@ -8,12 +8,15 @@
     margin-left: 30px;
 }
 
-.boy{
-    height: 36px;
-    width: 151px;
-    left: 47px;
-    top: 0px;
-    margin-left: 29px;
+.staff__title{
+    /* height: 36px; */
+    /* width: 151px; */
+    /* left: 47px; */
+    /* top: 0px; */
+    margin-left: 12px;
+}
+.staff__title p{
+    margin-bottom: 0;
 }
 
 .image{
