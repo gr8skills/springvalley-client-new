@@ -70,6 +70,21 @@ header .navbar{
     box-shadow: 0px 3px 5px 2px rgba(30, 30, 30, 0.01);
 }
 
+header .navbar-logo{
+    display: flex;
+    align-items: center;
+}
+header .navbar-logo img{
+    width: 62px;
+    height: 62px;
+}
+header .navbar-logo span{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #474B48;
+}
+
 .header__btn{
     background: #1A7526;
     
