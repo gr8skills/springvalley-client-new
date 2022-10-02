@@ -1381,7 +1381,7 @@ ol.breadcrumb li:last-child{
 
 
 
-
+/* 
 .back-logo{
     background-image: url('../images/image 17.png');
     background-repeat: no-repeat;
@@ -1390,8 +1390,8 @@ ol.breadcrumb li:last-child{
     width: 700px;
     position: relative;
     overflow: hidden;
-}
-.text{
+} */
+/* .text{
     background-color: white;
     justify-content: center;
     position: absolute;
@@ -1399,27 +1399,27 @@ ol.breadcrumb li:last-child{
     height: 500px;
     width: 700px;
     display: none;
-}
-.bg-container{
+} */
+/* .bg-container{
     height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.back-logo:hover > .text{
+} */
+/* .back-logo:hover > .text{
     display: block;
     animation-name: example;
     animation-duration: 2s;
-}
-@keyframes example{
+} */
+/* @keyframes example{
     from {background-color:white; right: 300px; top:500px;}
     to {background-color:white; right: 0px; top: 0px;}
-}
-.text h6{
+} */
+/* .text h6{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     color: black;
     width: 550px;
-    /* text-align: center; */
-}
+    text-align: center;
+} */

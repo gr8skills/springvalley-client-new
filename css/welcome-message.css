@@ -4,6 +4,8 @@
     border-radius: 100%;
 }
 
+
+
 .faith{
     font-family: 'Qwigley';
     font-size: 50px;
@@ -22,4 +24,35 @@
     letter-spacing: 0em;
     text-align: left;
     margin: 4px 0px 0px 3px ;
+}
+
+
+.welcome__message__header h3{
+    font-family: 'Qwigley', cursive;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 65px;
+    /* identical to box height */
+
+
+    color: #1E1E1E;
+}
+.welcome__message__header .text__box p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+    color: #474B48;
+}
+
+.welcome__message__header .text__box p:first-child{
+    margin-bottom: 20px;
+}
+
+.welcome__message__header h3 span{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #05CE20;
 }

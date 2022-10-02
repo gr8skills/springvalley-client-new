@@ -22,7 +22,7 @@
       max-width: 800px;
       margin: 0 auto;
       padding: 40px 10px;
-      text-align: center;
+      /* text-align: center; */
       width: 100%;
 
 }
@@ -32,4 +32,10 @@
       line-height: 42px;
       text-align: center;
       color: #474B48;
+}
+
+@media (max-width: 767.98px) {
+      .story__div p{
+            text-align: justify;
+      }
 }
