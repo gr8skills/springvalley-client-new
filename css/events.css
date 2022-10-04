@@ -1,0 +1,48 @@
+
+.back-logo{
+    background-image: url('../images/pass1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    border: 1rem solid white;
+}
+.back-logo1{
+    background-image: url('../images/pass1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    border: 1rem solid white;
+}
+.back-logo2{
+    background-image: url('../images/pass.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 270px;
+    justify-content: center;
+    border: 1rem solid white;
+}
+
+.back-logo3{
+    background-image: url('../images/pass1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 270px;
+    justify-content: center;
+    border: 1rem solid white;
+}
+/* 
+.back-logo:hover{
+    border-radius: 100%;
+    transition: 0.8s ease;
+} */
+
+.back-logo h6{
+    color: white;
+    align-self: center;
+}
