@@ -137,6 +137,7 @@ header .dropdown-menu{
     width: 800px ;
     top: 30px !important;
     left: -40px;
+    border: 0;
     /* transform: translate(50%, 42px) !important; */
     /* width: calc(100% - 30px); */
 }
@@ -228,7 +229,7 @@ section{
 
 
 .hero-section{
-    height: 100%;
+    height: 100vh;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     position: relative;
@@ -252,7 +253,7 @@ section{
 
 
 .hero-section .item{
-    height: 600px;
+    height: 100vh;
     /* position: relative; */
 }
 .hero-section .item img{
@@ -316,8 +317,8 @@ section{
 
 }
 .fixed-icons button svg{
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     
 
 }
@@ -326,24 +327,82 @@ section{
     border-radius: 0px 4px 4px 0px;
     padding: 16px;
     text-decoration: none;
+    position: relative;
+    border: none;
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    /* width: 60px; */
 
     /* border: 4px solid red; */
 
 }
+
+.fixed-icons-overflow span{
+    margin-left: 10px;
+    pointer-events: none;
+    opacity: 0;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+}
+.fixed-icons-overflow{
+    /* background: #fff; */
+    border-radius: 0px 4px 4px 0px;
+    /* padding: 16px; */
+    text-decoration: none;
+    transition: width .3s ease;
+    width: 0;
+    /* position: absolute; */
+    height: 100%;
+    top: 0;
+    display: flex;
+
+
+
+}
+
+.fixed-icons button:hover .fixed-icons-overflow{
+    width: 100px;     
+    transition: width .3s ease;
+    /* padding: 0; */
+    
+
+}
+
+.fixed-icons button:hover .fixed-icons-overflow span{
+    pointer-events: visible;
+    opacity: 1;
+    transition: opactiy .1s ease;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
 .fixed-icons .help-circle{
     background: #fff;
     /* border: 4px solid red; */
-    border: 2px solid #fff;
     
 }
 .fixed-icons .sign-post{
     /* border: 4px solid red; */
     background: #474B48;
-border: 2px solid #474B48;
+    /* border: 2px solid #474B48; */
 }
+.fixed-icons .send .fixed-icons-overflow span, 
+.fixed-icons .sign-post .fixed-icons-overflow span{
+    color: #fff;
+}
+
 .fixed-icons .send{
     background: #1A7526;
-    border: 2px solid #1A7526;
+    /* border: 2px solid #1A7526; */
     
 }
 
@@ -370,7 +429,7 @@ border: 2px solid #474B48;
         height: 14px;
     }
     .fixed-icons{
-        top: 40%;
+        display: none;
     
     }
     .fixed-icons button{
@@ -1116,7 +1175,13 @@ border: 2px solid #474B48;
 
 
 
-
+@media only screen and (max-width: 767px) {
+    .section__explore a{
+        width: 100%;
+        max-width: 100%;
+    }
+    
+}
 
 
 
