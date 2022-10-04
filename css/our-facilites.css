@@ -1,3 +1,10 @@
 .facility-section{
     padding: 40px 0px;
+    align-items: center;
+}
+.facility-section p{
+    font-size: 18px;
+    line-height: 38px;
+    color: #474B48;
+
 }

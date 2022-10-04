@@ -1,36 +1,83 @@
-input[type=text] , input[type=email]{
-    height: 58px;
-    width: 537px;
-    left: 0px;
-    top: 0px;
+.contact__section{
+    padding: 30px 0px 80px 0px;
+}
+
+
+
+
+.contact-form h3{
+    color: #252A3B;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+.contact-form input{
+    height: 50px;
     border-radius: 4px;
     padding: 8px 14px 8px 14px;
-
-}
-
-input{
-    border-color: #667085 ;
+    border-color: 0.5px solid #667085 ;
     color: #667085 ;
     background-color: #FFFFFF;
+
 }
 
-input[type=submit]{
-    height: 37px;
-    width: 149px;
-    left: 391px;
-    top: 590px;
-    border-radius: 26px;
-    padding: 10px 18px 25px 18px;
-    margin: 0px 0px 130px 390px;
+.contact-form input:focus,
+.contact-form textarea:focus{
+    box-shadow: none;
+    border: 1px solid #474B48;
+
 }
 
 textarea{
     height: 200px;
-    width: 539px;
-    left: 0px;
-    top: 234px;
-    border-radius: 4px;
-    padding: 14px;
+    border-color: 0.5px solid #667085 ;
+    
+} 
+
+
+.contact-form .submit-btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+
+.contact-form .submit-btn button{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: #474B48;
+    border: 1px solid #474B48;
+    font-size: 14px;
+    text-align: right;
+}
+
+.contact-form .submit-btn button:hover{
+    color: #FFFFFF;
+    background: #474B48;
+    border: 1px solid #474B48;
+}
+
+
+
+
+.space h3{
+    font-size: 22px;
+}
+.space h4{
+    color: #252A3B;
+    font-size: 20px;
+    font-weight: 500;
+}
+.space p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.space a{
+    color: #252A3B;
+    text-underline-offset: 3px;
 }
 
 .space{
@@ -40,3 +87,23 @@ textarea{
 .space1{
     padding-bottom: 5px ;
 }
+
+.address__img{
+    height: 450px; 
+    width: 450px;
+}
+
+
+#map {
+    height: 400px;
+    width: 100%; }
+    @media (max-width: 767.98px) {
+      #map {
+        height: 300px; } 
+
+        .address__img{
+            height: 400px; 
+            width: 100%;
+        }
+        
+    }

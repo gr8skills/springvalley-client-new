@@ -1,6 +1,28 @@
 .box{
     box-shadow: 0 4px 8px 0 lightgray ;
+    padding: 30px;
 }
+
+.box-text{
+    padding: 15px 0px;
+}
+
+.values__section .title__header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 30px;
+    
+}
+.values__section .title__header p{
+    margin-bottom: 0;
+    
+}
+
+.box-text h4{
+    margin-bottom: 20px;
+}
+
 
 .red{
     background-color: #D02F2F;
@@ -9,7 +31,6 @@
     left: 0px;
     top: 9px;
     border-radius: 2px;
-    margin: 50px 0px 50px 30px;
 }
 
 .boy{
@@ -109,12 +130,17 @@
     border: 1rem solid white;
 }
 
+.back-logo{
+    transition: all 0.4s ease;
+}
 .back-logo:hover{
     border-radius: 100%;
-    transition: 0.8s ease;
+    transition: all 0.8s ease;
 }
+
 .back-logo h6{
     color: white;
+    font-size: 25px;
     align-self: center;
 }
 

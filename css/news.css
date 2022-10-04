@@ -1,9 +1,12 @@
-.news-btn{
+.news .nav-item{
+    border-bottom: 1px solid #EDEBEB ;
+
+}
+.news .nav-link.active{
     background-color: #1A7526;
-    width: 300px;
     color: white;
     /* border-radius: 15px; */
-    border: none;
+    /* border: none; */
     padding: 10px 20px;
     font-weight: 700;
     font-size: 18px;
@@ -13,17 +16,17 @@
 .news{
     align-items: center;
     gap: 30px;
-    top: 150px;
-    margin-top: 100px;
     justify-content: center;
     display: flex;
-    border-bottom: 1px solid #EDEBEB ;
+    flex-direction: row;
+    /* border-bottom: 1px solid #EDEBEB ; */
 }
 .news a{
     font-size: 25px;
     border: none;
 }
-.evnt-btn{
+.news .nav-link{
+    max-width: 300px;
     width: 300px;
     border: none;
     background-color:#fff;
@@ -31,7 +34,7 @@
     padding: 10px 20px;
     font-weight: 700;
     font-size: 18px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
 
     transition: all .3s ease-in-out;
 
@@ -116,6 +119,10 @@
     .news-btn, 
     .evnt-btn{
         width: auto;
+    }
+
+    .news .nav-link{
+        width: 100px;
     }
     
 }
