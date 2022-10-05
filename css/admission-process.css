@@ -1,25 +1,47 @@
+.admission__policy{
+    font-size: 18px;
+    line-height: 38px;
+    color: #474B48;
+}
+
+.admission_listing__item p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
 .red{
     background-color: #D02F2F;
-    height: 18px;
-    width: 18px;
-    left: 0px;
+    height: 15px;
+    width: 15px;
+    /* left: 0px; */
     border-radius: 2px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
+    padding-top: 10px;
 }
 
 .fcc-btn {
     background-color: #1A7526;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     text-decoration: none ;
-    border-radius: 20px;
+    
 }
 
 .fcc-btn:hover {
-    background-color: #474B48;
+    /* background-color: #474B48;    */
     color:white;
 }
 
 .bad{
     margin-left: 20px;
+}
+
+
+h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #474B48;
+
 }

@@ -1276,6 +1276,8 @@ section{
     background: #1E1E1E;
     padding: 5rem 0;
 }
+
+
 .top-footer .logo-text{
     color: #FFFFFF;
 }
@@ -1398,6 +1400,11 @@ section{
     .top-footer{
         background: #1E1E1E;
         padding: 2rem 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .section__explore .pointer-events-none{
+        display: none;
     }
 }
 

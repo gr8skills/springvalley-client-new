@@ -88,9 +88,14 @@ textarea{
     padding-bottom: 5px ;
 }
 
-.address__img{
-    height: 450px; 
-    width: 450px;
+.address__img {
+    height: 450px;
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
 }
 
 
@@ -103,7 +108,6 @@ textarea{
 
         .address__img{
             height: 400px; 
-            width: 100%;
         }
         
     }
