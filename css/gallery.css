@@ -1,0 +1,15 @@
+.flex-gallery{
+    height: 500px;
+}
+
+@media only screen and (max-width: 992px){
+
+    .flex-gallery{
+        height: auto;
+    }
+
+}
+
+.gallery_images img{
+    object-fit: cover;
+}
