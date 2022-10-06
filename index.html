@@ -15,7 +15,7 @@
 </head>
 <body>
 
-    <header class="px-2 py-2 py-lg-3  navbar-expand-lg sticky-top text-bg-white bg-white ">
+    <header class="px-2 py-2 py-lg-3  navbar-expand-lg fixed-top text-bg-white bg-white ">
         <div class="container">
           <div class="d-flex align-items-center  justify-content-lg-start justify-content-between  ">
             <a href="/" class="navbar-logo gap-2 mb-2 mb-lg-0 text-white text-decoration-none me-lg-auto">
@@ -24,7 +24,6 @@
             </a>
 
             <button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
                 <i class="fa fa-bars"></i>
               </button>
           
@@ -192,7 +191,7 @@
 
     <section class="hero-section">
         <div class="hero-carousel owl-carousel position-relative">
-            <div class="item position-relative home_slider_background" style="background-image: url('images/gallery-34 1.png' ); "> 
+            <div class="item position-relative home_slider_background" style="background-image: url('images/gallery-34\ 1@2x.png' ); "> 
                 <div class="hero__banner__section--overlay"></div>
                 
                 <div>
@@ -202,8 +201,8 @@
                     </div>
                 </div>
             </div>
-            <div  class="item home_slider_background"  style="background-image: url('images/image\ 8\ \(1\).png' );">
-                <div class="hero__banner__section--overlay"></div>
+            <div  class="item home_slider_background"  style="background-image: url('images/image\ 8\ \(2\).png' );">
+                <!-- <div class="hero__banner__section--overlay"></div> -->
 
                 <div>
                     
@@ -223,7 +222,7 @@
                     
                 </div>
             </div>
-            <div  class="item home_slider_background" style="background-image: url('images/image 9.png' );">
+            <div  class="item home_slider_background" style="background-image: url('images/image\ 9.svg' );">
                 <div class="hero__banner__section--overlay"></div>
 
                 <div>
@@ -241,7 +240,7 @@
         <div class="fixed-icons">
 
             <div class="d-flex flex-column align-items-start gap-2 ">
-                <button class="help-circle">
+                <a href="" class="help-circle">
                     <span>
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#474B48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -249,8 +248,11 @@
                         <path d="M12 17H12.01" stroke="#474B48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </span>
-                </button>
-                <button class="sign-post">
+                    <div class="fixed-icons-overflow h-100 fadeIn">
+                        <span class="">inquire <i class="fa fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </a>
+                <a href="" class="sign-post">
                     <span>
                         
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -262,8 +264,11 @@
                         </svg>
         
                     </span>
-                </button>
-                <button class="send" >
+                    <div class="fixed-icons-overflow h-100">
+                        <span class="">visit <i class="fa fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </a>
+                <a href="" class="send" >
                     <span>
                         
                         
@@ -273,7 +278,11 @@
                         </svg>
         
                     </span>
-                </button>
+                    <div class="fixed-icons-overflow h-100">
+                            
+                            <span class="">apply <i class="fa fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </a>
 
             </div>
         </div>
@@ -294,7 +303,7 @@
                 <div class="section-title mx-auto">
                     
 
-                    <p class="text-center ">
+                    <p class="text-center px-2">
                         Spring Valley School recognises the importance of working together and pride ourselves on the positive partnerships that are created between children, parents and ourselves. Collaborative learning runs through all of our work and our curriculum encourages innovation, problem solving and creative thinking. Our size enables us to offer unique learning experiences and a real drive to ensure that all children are given the very best of learning opportunities.
                     </p>
 
@@ -332,7 +341,7 @@
                 <div class="section-title">
                     <h3 class="">Discover <span>Spring Valley</span></h3>
                 </div>
-
+ 
                 <div class="row py-5">
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4 mb-lg-0 card-group">
                         <div class="position-relative discover-card-img prsc">
@@ -498,27 +507,36 @@
 
     <section>
         <div class="container">
-            <div class="flex-gallery d-flex align-item-center justify-content-between gap-3 flex-column flex-lg-row">
-                <div class="flex-gallery-1">
-                    <img src="images/gallery-8 1.png" alt="" class="w-100 h-100">
+            <div class="section__title">
+                <h3 class="">Our Facilities</h3>
+            </div>
+            <div class="flex-gallery d-flex align-item-center justify-content-between gap-3 flex-wrap flex-lg-nowrap">
+                <div class="flex-gallery-1 ">
+                    <div class="facility__bx w-100 h-100">
+                        <div class="facility__bx__overlay"></div>
+                    <img src="images/gallery-8 1.png" alt="" class="w-100 h-100 img-fluid">
+
+                    </div>
                 </div>
                 <div class="flex-gallery-2">
-                    <div class="
-                    ">
-                        <img src="images/gallery-30 1.png" alt="" class="w-100 h-100">
+                    <div class="facility__bx w-100 h-100">
+                        <img src="images/gallery-30 1.png" alt="" class="w-100 img-fluid">
                     </div>
-                    <div>
-                        <img src="images/gallery-7 1.png" class=" w-100 ">
+                    <div class="facility__bx w-100 h-100">
+                        <img src="images/gallery-7 1.png" class=" w-100 img-fluid ">
                     </div>
 
                 </div>
-                <div class="flex-gallery-3">
-                    <img src="images/gallery-1 1.png" alt="" class="w-100 h-100">
+                <div class="flex-gallery-3 ">
+                    <div class="facility__bx w-100 h-100">
+                        <img src="images/gallery-1 1.png" alt="" class="w-100 h-100 img-fluid">
+
+                    </div>
                 </div>
             </div>
 
             <div class="d-flex align-items-center justify-content-center mt-5">
-                <a href="" class="btn btn-outline-dark rounded-pill px-5 py-2 text-uppercase ">view all</a>
+                <a href="about/our-facilities.html" class="btn btn-outline-dark rounded-pill px-5 py-2 text-uppercase ">view all</a>
             </div>
         </div>
     </section>
@@ -527,8 +545,8 @@
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center">
 
-            <div class="col-lg-6 col-md-6 h-100">
-                <div class="d-flex align-items-start flex-column w-75 ">
+            <div class="col-lg-6 col-md-6 col-sm-12 h-100">
+                <div class="d-flex align-items-start flex-column achievement-header ">
                     <h2>
                         Our 17 years of  Achievements
                     </h2>
@@ -537,34 +555,34 @@
                 </div>
 
             </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 " >
+            <div class="col-lg-6 col-md-6 col-sm-12 mt-5 mt-lg-0">
+                <div class="row ">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6  " >
                         <div class="ach-bx gap-2 mb-4">
-                            <img src="images/school 1.png"/>
+                            <img src="images/school 1.svg"/>
                             <span class="fs-2">3</span>
-                            <p>Certified Schools</p>
+                            <p class="text-center">Certified Schools</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 ">
                         <div class="ach-bx gap-2 mb-4">
-                            <img src="images/school (1) 1.png"/>
+                            <img src="images/school (1) 1.svg"/>
                             <span class="fs-2">98%</span>
-                            <p>Pass Rate</p>
+                            <p class="text-center">Pass Rate</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="ach-bx gap-2 mb-4">
-                            <img src="images/open-book 1.png"/>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="ach-bx gap-2 mb-4 mb-lg-0">
+                            <img src="images/open-book 1.svg"/>
                             <span class="fs-2">7,580</span>
-                            <p>Life Enrolment since Inception</p>
+                            <p class="text-center">Life Enrolment since Inception</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="ach-bx gap-2 mb-4">
-                            <img src="images/family 1.png"/>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="ach-bx gap-2 mb-4 mb-lg-0">
+                            <img src="images/family 1.svg"/>
                             <span class="fs-2">5,500</span>
-                            <p>Satisfied Parents</p>
+                            <p class="text-center">Satisfied Parents</p>
                         </div>
                     </div>
                 </div>
@@ -584,30 +602,17 @@
                     <div class="d-flex align-items-lg-start  align-items-center justify-content-center flex-column w-lg-75 w-100 ">
                         <div class="section__title">
                             <h3 class="">News & Events</h3>
-                            <h2 class="text-left">Highlights</h2>
+                            <h2 class="text-center text-lg-start">Highlights</h2>
                         </div>
 
                         <div class="d-flex align-items-center justify-content-center mt-2 mt-lg-0">
-                            <a href="" class="btn btn-outline-dark rounded-pill px-5 py-2 text-uppercase ">view all</a>
+                            <a href="news.html" class="btn btn-outline-dark rounded-pill px-5 py-2 text-uppercase ">view all</a>
                         </div>
                     </div>
 
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12 mt-4 mt-lg-0">
-                    <!-- <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12 ">
-                            <div class="bg-container">
-                                <div class="back-logo">
-                                    <div class="text">
-                                        <h4>Parenting in a Changing World</h4>
-                                        <p>During the webinar meet up, vital points were made that were going to be mind blow experience and the impact that will last for a life time....</p>
-                                        <a href="" class="text-uppercase">Read More</a>
-                                    </div>
-                                </div>
 
-                            </div>
-                        </div>
-                    </div> -->
                     
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 " >
@@ -778,7 +783,7 @@
 
                     <h3>Excellence through hardwork</h3>
 
-                    <div class="mt-5 d-flex align-items-center gap-4 justify-content-start flex-wrap">
+                    <div class="mt-5 d-flex align-items-center gap-4 justify-content-start flex-md-row flex-column flex-wrap">
                         <a href="" class="inquire">
                             <span>
                                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -989,6 +994,9 @@
 
 
       <!-- MOBILE SIDEBAR -->
+      <div class="d-block d-lg-none">
+
+      
         <div class="mobile__sidebar">
             <div class="py-4">
                 <div class="px-2 ">
@@ -1177,6 +1185,7 @@
                 </div>
             </div>
         </div>
+    </div>
       <!-- MOBILE SIDEBAR -->
     
 
