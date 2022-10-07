@@ -801,7 +801,7 @@ section{
 /* SECTION ACHIEVEMENTS */
 
 .section-achievement{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46));
+    background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46));
     background-image: url(../images/achievement__bg.svg);
     background-size: cover;
     background-position: center center;
