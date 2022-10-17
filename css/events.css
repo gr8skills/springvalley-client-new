@@ -41,6 +41,17 @@
     border: 1rem solid white;
 }
 
+
+.back-logo4{
+    height: 300px;
+}
+
+@media only screen and (max-width: 767px){
+    .back-logo4{
+        height: 400px;
+    }
+}
+
 .back-logo h6{
     color: white;
     align-self: center;
