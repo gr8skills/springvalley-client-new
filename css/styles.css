@@ -325,7 +325,7 @@ section{
 
 
 .fixed-icons{
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 40%;
     z-index: 99;
