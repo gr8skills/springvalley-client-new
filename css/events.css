@@ -1,58 +1,67 @@
-
-.back-logo h6{
-    font-size: 30px;
-    text-align: center;
+.back-logo h6 {
+  font-size: 30px;
+  text-align: center;
 }
-.back-logo{
-    background-image: url('../images/pass1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 270px;
-    display: flex;
-    justify-content: center;
-    border: 1rem solid white;
+.back-logo {
+  background-image: url('../images/pass1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  border: 1rem solid white;
 }
-.back-logo1{
-    background-image: url('../images/DSC_3903\ 1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 270px;
-    display: flex;
-    justify-content: center;
-    border: 1rem solid white;
+.back-logo1 {
+  background-image: url('../images/DSC_3903\ 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  border: 1rem solid white;
 }
-.back-logo2{
-    background-image: url('../images/pass.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    height: 270px;
-    justify-content: center;
-    border: 1rem solid white;
-}
-
-.back-logo3{
-    background-image: url('../images/image318.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    height: 270px;
-    justify-content: center;
-    border: 1rem solid white;
+.back-logo2 {
+  background-image: url('../images/pass.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 270px;
+  justify-content: center;
+  border: 1rem solid white;
 }
 
-
-.back-logo4{
-    height: 300px;
+.back-logo3 {
+  background-image: url('../images/image318.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 270px;
+  justify-content: center;
+  border: 1rem solid white;
 }
 
-@media only screen and (max-width: 767px){
-    .back-logo4{
-        height: 400px;
-    }
+.back-logo4 {
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.back-logo4:hover img {
+  transform: scale(1.2);
+  transition: all .3s ease-in-out;
+}
+.back-logo4 img {
+  object-fit: cover;
+  transition: all .3s ease-in-out;
+
 }
 
-.back-logo h6{
-    color: white;
-    align-self: center;
+@media only screen and (max-width: 767px) {
+  .back-logo4 {
+    height: 400px;
+  }
+}
+
+.back-logo h6 {
+  color: white;
+  align-self: center;
 }
