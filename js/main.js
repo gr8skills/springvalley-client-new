@@ -176,7 +176,7 @@ $(document).ready(function () {
     autoplayHoverPause: false,
     items: 1,
     autoplayTimeout: 6000,
-    // smartSpeed: 800,
+    //smartSpeed: 800,
     navText: [
       "<i class='fa fa-long-arrow-alt-left'></i>",
       "<i class='fa fa-long-arrow-alt-right'></i>",
