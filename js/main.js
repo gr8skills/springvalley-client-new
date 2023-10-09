@@ -86,13 +86,16 @@ $(document).ready(function () {
       return;
     }
 
-    // When the user clicks on the button, open the modal
-    modal.classList.add('show');
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function () {
-      modal.classList.remove('show');
-    };
+    if(modal){
+      // When the user clicks on the button, open the modal
+      modal.classList.add('show');
+    }
+    if(span && modal){
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.classList.remove('show');
+      };
+    }
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function (event) {
